@@ -19,3 +19,13 @@ body{
   width: 240px;
   border-radius: 4px;
 }
+
+footer{
+  background-color: #c6c6c6;
+  padding: 4vw 12vw;
+  text-align: center;
+  color:#fff;
+}
+footer>a{
+  color: #fff;
+}
