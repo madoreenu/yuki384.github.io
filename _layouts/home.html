@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="main">
+<div id="about" >
+  <h2>Yuki Mihashi</h2>
+  {{site.description}}
+</div>
+<div id="Works">
+  <h2>作品</h2>
+  {% for post in site.categories.Works %}
+  <article class="post">
+    {% if post.thumbnail %}
+    <img src="/img/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail">
+    {%else%}
+    {%endif%}
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+  </article>
+  {% endfor %}
+</div>
+<div id="Blog">
+  <h2>最近の記事</h2>
+  {% for post in site.categories.Blog %}
+  <article class="post">
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+  </article>
+  {% endfor %}
+</div>
+<div id="Articles">
+  <h2>掲載記事</h2>
+</div>
+</div>
