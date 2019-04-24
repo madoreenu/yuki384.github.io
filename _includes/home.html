@@ -1,0 +1,32 @@
+<div class="main">
+  <div class="cover">
+    <h1>{{site.title}}</h1>
+  </div>
+<div id="about" class="section">
+  <h2>Yuki Mihashi</h2>
+  {{site.description}}
+</div>
+<div id="Works" class="section">
+  <h2>作品</h2>
+  {% for post in site.categories.Works %}
+  <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
+    {% if post.thumbnail %}
+    <img src="/img/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail">
+    {%else%}
+    {%endif%}
+    <h3>{{post.title}}</h3>
+  </div></a>
+  {% endfor %}
+</div>
+<div id="Blog" class="section">
+  <h2>最近の記事</h2>
+  {% for post in site.categories.Blog %}
+  <article class="post">
+    <p>{{post.date | date:"%Y/%m/%d"}}</p><h3><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h3>
+  </article>
+  {% endfor %}
+</div>
+<div id="Articles" class="section">
+  <h2>掲載記事</h2>
+</div>
+</div>
