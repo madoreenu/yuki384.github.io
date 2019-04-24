@@ -2,8 +2,9 @@ body{
   margin: 0;
 }
 .section{
-  margin: 2px 0;
-  padding: 16px 12vw;
+  padding: 16px;
+  margin: 2px auto;
+  max-width: 780px;
 }
 .cover{
   background-image: url("/img/cover.png");
