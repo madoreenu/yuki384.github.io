@@ -60,3 +60,13 @@ footer{
 footer>a{
   color: #fff;
 }
+
+.section>h1{
+  text-align: center;
+  padding: 12px;
+  border-bottom: solid 4px #31bccc;
+}
+.date{
+  font-size: 18px;
+  color: #aaa;
+}
