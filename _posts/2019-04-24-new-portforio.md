@@ -11,8 +11,7 @@ Jekyllでポートフォリオサイトを作りました！
 [公式サイトの日本語訳](https://jekyllrb-ja.github.io/)を見るとわかるはずです。
 
 ## きっかけ
-[RubyKaigi2019](https://rubykaigi.org/2019)の
-いつものようにGitHubを眺めていたら、[僕の大好きなyasulabさん](https://github.com/yasslab/yasslab.jp)のコードで"Jekyll"というものがあるらしいと知りました。調べてみたらMarkdownでブログ更新できるいい感じの機能があり、Rubyベースらしいので、これは素晴らしい！<br>4/30に[平成最後のプログラミングLT](https://npoint.connpass.com/event/118783/)があるので、とりあえず「ポートフォリオサイトをJekyllで作ってみた」という題名だけ登録しました。まだ何もわからない状態で。
+[RubyKaigi2019](https://rubykaigi.org/2019)中に、いつものようにGitHubを眺めていたら、[僕の大好きなyasulabさん](https://github.com/yasslab/yasslab.jp)のコードで"Jekyll"というものがあるらしいと知りました。調べてみたらMarkdownでブログ更新できるいい感じの機能があり、Rubyベースらしいので、これは素晴らしい！<br>4/30に[平成最後のプログラミングLT](https://npoint.connpass.com/event/118783/)があるので、とりあえず「ポートフォリオサイトをJekyllで作ってみた」という題名だけ登録しました。まだ何もわからない状態で。
 
 ## 作る過程
 さて、なにもわからないのでとりあえず空のプロジェクトを作成してみたら、やりたいことがとてもスムーズにできるという、とっても良い感じなことがわかりました。<br>
