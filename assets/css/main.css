@@ -4,6 +4,7 @@ body{
 .section{
   margin: 2px 0;
   padding: 16px 12vw;
+}
 .cover{
   background-image: url("/img/cover.png");
   background-size: cover;
@@ -31,6 +32,11 @@ body{
 .project>img{
   width: 240px;
   border-radius: 4px;
+}
+
+#about{
+  background-color: #31bccc;
+  color: #fff;
 }
 
 h2{
