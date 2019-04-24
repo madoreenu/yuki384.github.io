@@ -4,6 +4,19 @@ body{
 .section{
   margin: 2px 0;
   padding: 16px 12vw;
+.cover{
+  background-image: url("/img/cover.png");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+.cover>h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: #ff4d8c;
 }
 
 .project{
