@@ -24,6 +24,16 @@ body{
   transform: translateY(-50%) translateX(-50%);
   color: #ff4d8c;
 }
+.sns a{
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: solid 2px #fff;
+  margin:12px 4px;
+  display: inline-block;
+  text-decoration: none;
+}
 
 .project{
   background-color: #fff;
