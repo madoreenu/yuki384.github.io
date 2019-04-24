@@ -41,11 +41,12 @@ body{
   border: solid 2px #e8e8e8;
   padding: 8px;
   border-radius: 8px;
-  width: 240px;
   margin-right: 12px;
 }
 .project>img{
   width: 240px;
+  height: 140px;
+  object-fit: cover;
   border-radius: 4px;
 }
 
