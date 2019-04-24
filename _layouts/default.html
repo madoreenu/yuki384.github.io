@@ -6,6 +6,24 @@
 <link rel="stylesheet" href="{{site.github.url}}/assets/css/main.css" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="shortcut icon" type="image/jpg" href="/img/icon.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@YukiMihashi" />
+<meta property="og:url" content="{{site.url}}{{page.url}}" />
+{% if page.title %}
+<meta property="og:title" content="{{page.title}}" />
+{% else %}
+<meta property="og:title" content="{{site.title}}" />
+{% endif %}
+
+{% if page.thumbnail %}
+<meta property="og:image" content="{{site.url}}{{page.thumbnail}}" />
+{% else %}
+<meta property="og:image" content="{{site.url}}/img/cover.png" />
+{% endif %}
+
+<meta property="fb:admins" content="100014694420954" />
+
 </head>
 <body>
 {{content}}
