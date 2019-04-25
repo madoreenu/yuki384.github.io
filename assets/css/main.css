@@ -7,14 +7,15 @@ body{
   color: #555;
 }
 .section{
-  padding: 16px;
-  margin: 2px auto;
+  padding: 5vh 16px;
+  margin: auto;
   max-width: 780px;
+  min-height: 30vh;
 }
 .cover{
   background-image: url("/img/cover.png");
   background-size: cover;
-  height: 400px;
+  height: 60vh;
   text-align: center;
   position: relative;
 }
