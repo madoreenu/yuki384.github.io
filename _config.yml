@@ -16,7 +16,7 @@
 title: Yuki Mihashi
 email: yuki.mihashi384@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  デザインとWeb開発をしています。このサイトでは今までの作品やブログなどをまとめています。サイトのコードはGitHubで公開しています。
+  デザインとWeb開発をしています。このサイトでは今までの作品やブログなどをまとめています。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YukiMihashi
