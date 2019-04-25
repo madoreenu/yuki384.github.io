@@ -47,7 +47,7 @@ body{
   border: solid 2px #e8e8e8;
   padding: 8px;
   border-radius: 8px;
-  margin-right: 12px;
+  margin: 6px;
   color: #555;
 }
 .project>img{
@@ -129,4 +129,15 @@ header{
 }
 .logo{
   height: 6vh;
+}
+@media screen and (max-width:382px) {
+  .sns p{
+    display: none;
+  }
+  .project{
+    width: calc(100% - 32px);
+  }
+  .project img{
+    width: 100%;
+  }
 }
