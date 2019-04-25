@@ -116,3 +116,12 @@ footer>a{
 .thumbnail{
   width: 100%;
 }
+
+header{
+  background-color: #fafafa;
+  padding: 12px 24px;
+  border-bottom: solid 4px #ff4d8c;
+}
+.logo{
+  height: 6vh;
+}
