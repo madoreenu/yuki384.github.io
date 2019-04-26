@@ -56,6 +56,11 @@ body{
   object-fit: cover;
   border-radius: 4px;
 }
+.project:hover{
+  box-shadow:0px 5px 14px -6px #c7c7c7;
+  transition: .3s;
+  border-color: #31bccc;
+}
 
 #about{
   background-color: #31bccc;
