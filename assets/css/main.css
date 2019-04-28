@@ -1,9 +1,9 @@
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
-@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 body{
   margin: 0;
-  font-family: "notosansjapanese";
+  font-family: "Noto Sans JP";
   color: #555;
 }
 .section{
