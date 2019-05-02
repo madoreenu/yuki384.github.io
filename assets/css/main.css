@@ -1,5 +1,6 @@
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
 
 body{
   margin: 0;
@@ -25,6 +26,7 @@ body{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   color: #ff4d8c;
+  font-family: 'Gugi', cursive;
 }
 .sns a{
   color: #fff;
@@ -35,6 +37,7 @@ body{
   margin:12px 4px;
   display: inline-block;
   text-decoration: none;
+  font-family: 'Gugi', cursive;
 }
 .sns p{
   margin: 0;
