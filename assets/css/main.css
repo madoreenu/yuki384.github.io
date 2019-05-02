@@ -27,6 +27,10 @@ body{
   transform: translateY(-50%) translateX(-50%);
   color: #ff4d8c;
   font-family: 'Gugi', cursive;
+  text-shadow:3px 3px 0 #FFF, -3px -3px 0 #FFF,
+              -3px 3px 0 #FFF, 3px -3px 0 #FFF,
+              0px 3px 0 #FFF,  0-3px 0 #FFF,
+              -3px 0 0 #FFF, 3px 0 0 #FFF;
 }
 .sns a{
   color: #fff;
