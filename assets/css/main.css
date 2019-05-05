@@ -98,6 +98,10 @@ h2{
   width: calc(100% - 26px);
   text-align: left;
 }
+.post:hover{
+  background-color: #aaa;
+  transition:.3s;
+}
 .post_text{
   display: table-cell;
   vertical-align: middle;
