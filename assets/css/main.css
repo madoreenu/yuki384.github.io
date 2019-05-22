@@ -162,3 +162,13 @@ header{
     width: 100%;
   }
 }
+
+.arrow{
+  position: absolute;
+  top: -14vh;
+  animation: huwahuwa 1s ease-in-out infinite alternate;
+}
+@keyframes huwahuwa {
+  0% { transform:translateX( 5px) translateY(-5px); }
+100% { transform:translateX(  -5px) translateY(5px); }
+}
