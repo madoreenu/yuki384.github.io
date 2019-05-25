@@ -63,7 +63,7 @@ body{
   color: #555;
 }
 .project>img{
-  width: 240px;
+  width: 350px;
   height: 140px;
   object-fit: cover;
   border-radius: 4px;
@@ -151,15 +151,18 @@ header{
 .logo{
   height: 6vh;
 }
+@media screen and (max-width:800px) {
+  .project img{
+    width: 100%;
+  }
+
+}
 @media screen and (max-width:382px) {
   .sns p{
     display: none;
   }
   .project{
     width: calc(100% - 32px);
-  }
-  .project img{
-    width: 100%;
   }
 }
 
