@@ -57,7 +57,7 @@ body{
   background-color: #fff;
   display: inline-block;
   border: solid 2px #e8e8e8;
-  padding: 8px;
+  padding: 8px 8px 16px 8px;
   border-radius: 8px;
   margin: 6px;
   color: #555;
