@@ -175,3 +175,11 @@ header{
   0% { transform:translateX( 5px) translateY(-5px); }
 100% { transform:translateX(  -5px) translateY(5px); }
 }
+
+.tag{
+  display: inline;
+  background-color: #31bccc;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
