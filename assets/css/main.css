@@ -32,6 +32,9 @@ body{
               0px 3px 0 #FFF,  0-3px 0 #FFF,
               -3px 0 0 #FFF, 3px 0 0 #FFF;
 }
+.cover a{
+  text-decoration: none;
+}
 .sns a{
   color: #fff;
   font-size: 16px;
@@ -173,6 +176,8 @@ header{
   position: absolute;
   top: -14vh;
   animation: huwahuwa 1s ease-in-out infinite alternate;
+  color: #ff4d8c;
+  font-family: 'Gugi', cursive;
 }
 @keyframes huwahuwa {
   0% { transform:translateX( 5px) translateY(-5px); }
