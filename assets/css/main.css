@@ -191,3 +191,21 @@ header{
   padding: 2px 8px;
   border-radius: 2px;
 }
+
+.neko{
+  width: 120px;
+  position: relative;
+  z-index: -10;
+  left: calc(80vw - 120px);
+  animation: hyoko 6s ease-in-out infinite alternate;
+  top: 100px;
+}
+@keyframes hyoko {
+  0% { transform:translateY(5px); }
+ 30% { transform:translateY(-70px) rotateZ(5deg);}
+ 60% { transform:translateY(-70px) rotateZ(-5deg);}
+100% { transform:translateY(5px); }
+}
+footer{
+  position: relative;
+}
