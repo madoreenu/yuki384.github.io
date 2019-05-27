@@ -55,9 +55,10 @@
 </div><div class="neko-anime" onclick="neko()"><img src="/img/nyan.svg" alt="" class="neko"></div>
 <script type="text/javascript">
   function neko(){
+    var serihu = [ "ニャン", "ニャアン", "ミャッ", "ニャーン", "ニャッ", "フニャー", "ミャオー", "ミューン", "ニャゴッ"] ;
     var nekochan= document.createElement("div");
     nekochan.className = "hukidashi";
-    nekochan.textContent = "ニャン";
+    nekochan.textContent = serihu[ Math.floor( Math.random() * serihu.length ) ];
     document.getElementById('hukidashis').appendChild(nekochan);
     setTimeout("document.querySelector('#hukidashis > div').parentNode.removeChild(document.querySelector('#hukidashis > div'));", 3000);
   }
