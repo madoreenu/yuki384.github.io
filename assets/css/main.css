@@ -199,6 +199,7 @@ header{
   left: calc(80vw - 120px);
   animation: hyoko 6s ease-in-out infinite alternate;
   top: 100px;
+  cursor: pointer;
 }
 @keyframes hyoko {
   0% { transform:translateY(5px); }
@@ -208,4 +209,16 @@ header{
 }
 footer{
   position: relative;
+}
+.hukidashi{
+  position: absolute;
+  left: calc(80vw - 200px);
+  border-radius: 40px;
+  border: solid 2px #ccc;
+  padding: 12px;
+  animation: howa 2s ease-in-out both;
+}
+@keyframes howa {
+  0%{ opacity: 1;transform:translateY(40px);}
+  100%{ opacity: 0; transform:translateY(-20px);}
 }

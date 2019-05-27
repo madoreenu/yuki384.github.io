@@ -51,4 +51,14 @@
     </ul>
 </div>
 </div>
-<img src="/img/nyan.svg" alt="" class="neko">
+<div id="hukidashis">
+</div><div class="neko-anime" onclick="neko()"><img src="/img/nyan.svg" alt="" class="neko"></div>
+<script type="text/javascript">
+  function neko(){
+    var nekochan= document.createElement("div");
+    nekochan.className = "hukidashi";
+    nekochan.textContent = "にゃーん";
+    document.getElementById('hukidashis').appendChild(nekochan);
+    setTimeout("document.querySelector('#hukidashis > div').parentNode.removeChild(document.querySelector('#hukidashis > div'));", 3000);
+  }
+</script>
