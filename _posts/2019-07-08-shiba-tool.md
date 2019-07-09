@@ -18,9 +18,9 @@ Scratch, 100%pen
 
 ### 公開情報
 [Scratch作品ページ](https://scratch.mit.edu/projects/320118770/) 、もしくは以下の埋め込みで体験できます。
-
+<div class="iframe-wrapper">
 <iframe src="https://scratch.mit.edu/projects/320118770/embed" allowtransparency="true" class="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
+</div>
 ## 使い方 How to use
 Click 5 colors palette -> Change pen color.  
 Click the grey button in the bottom right corner -> Generate random art.

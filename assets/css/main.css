@@ -229,6 +229,19 @@ footer{
 }
 
 .iframe{
+  height:auto;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 60vw;
+  height:100%;
+}
+.iframe-wrapper{
+  position: relative;
+  width: 100%;
+}
+.iframe-wrapper:before {
+    content:"";
+    display: block;
+    padding-top: 83%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
 }
