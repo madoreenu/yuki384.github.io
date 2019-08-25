@@ -200,6 +200,7 @@ header{
   left: calc(80vw - 120px);
   animation: hyoko 6s ease-in-out infinite alternate;
   top: 100px;
+  user-select: none;
 }
 .neko-anime{
   cursor: pointer;
