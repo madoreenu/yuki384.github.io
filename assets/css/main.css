@@ -57,6 +57,26 @@ body{
   transition:.3s;
 }
 
+.page-not-found{
+  font-family: 'Gugi', cursive;
+  margin: 12vh auto;
+  max-width: 780px;
+  padding: 24px;
+}
+.page-not-found-img{
+  float: left;
+  margin: 2vh 6vw;
+  width: 240px;
+}
+.page-not-found::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.page-not-found-h{
+  color: #ff4d8c;
+  font-size: 6em;
+}
 .project{
   background-color: #fff;
   display: inline-block;
@@ -166,6 +186,12 @@ header{
   height: 6vh;
 }
 @media screen and (max-width:800px) {
+  .page-not-found{
+    text-align: center;
+  }
+  .page-not-found-img{
+    float: none;
+  }
   .project img{
     width: 100%;
   }
