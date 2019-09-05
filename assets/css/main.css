@@ -63,6 +63,15 @@ body{
   max-width: 780px;
   padding: 24px;
 }
+.page-not-found-a{
+  background-color: #31bccc;
+  border-radius: 24px;
+  /*box-shadow: #ccc 0 1px 12px 2px;*/
+  color: #fff;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+}
 .page-not-found-img{
   float: left;
   margin: 2vh 6vw;
@@ -76,6 +85,9 @@ body{
 .page-not-found-h{
   color: #ff4d8c;
   font-size: 6em;
+}
+.page-not-found-p{
+  padding-bottom: 24px;
 }
 .project{
   background-color: #fff;
