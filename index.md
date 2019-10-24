@@ -20,7 +20,7 @@ layout: default
   </div>
 </div>
 <div id="Works" class="section">
-  <h2>作品</h2>
+  <h2>Works</h2>
   {% for post in site.categories.Works %}
   <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
     {% if post.thumbnail %}
@@ -35,7 +35,7 @@ layout: default
   {% endfor %}
 </div>
 <div id="Presentation" class="section">
-  <h2>発表・登壇</h2>
+  <h2>Presentation slide</h2>
   {% for prs in site.data.presentation %}
   <a href="{{ prs.url }}" target="_blank" class="prs">
     <div class="prs-img">
@@ -49,7 +49,7 @@ layout: default
   {% endfor %}
 </div>
 <div id="Blog" class="section">
-  <h2>最近の記事</h2>
+  <h2>Blog</h2>
   {% for post in site.categories.Blog %}
   <a href="{{ site.baseurl }}{{ post.url }}">
   <article class="post">
@@ -62,7 +62,7 @@ layout: default
   {% endfor %}
 </div>
 <div id="Articles" class="section">
-  <h2>掲載記事</h2>
+  <h2>Article</h2>
   <ul>
     {% for article in site.data.article %}
       <li><a href="{{article.url}}">{{article.title}}</a></li>
