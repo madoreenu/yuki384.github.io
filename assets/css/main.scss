@@ -16,6 +16,7 @@ body{
   margin: auto;
   max-width: 780px;
   min-height: 30vh;
+  clear: both;
 }
 .cover{
   background-image: url("/img/cover.png");
@@ -293,4 +294,32 @@ footer{
     content:"";
     display: block;
     padding-top: 83%; /* 高さと幅の比を16:9に固定。9/16*100=56.25 */
+}
+
+.prs-dsc{
+  color: #fff;
+  opacity: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 12px;
+  width: calc(100% - 24px);
+  transition: .6s;
+  border-radius: 0 0 4px 4px;
+}
+.prs{
+  margin: 4px;
+  float: left;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  width: calc(33% - 8px);
+  &:hover > .prs-dsc{
+    opacity: 1;
+  }
+}
+.prs-img img{
+  width: 100%;
+  height: calc(20vw);
+  object-fit: cover;
 }

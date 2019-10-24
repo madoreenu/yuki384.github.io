@@ -34,6 +34,20 @@ layout: default
   </div></a>
   {% endfor %}
 </div>
+<div id="Presentation" class="section">
+  <h2>発表・登壇</h2>
+  {% for prs in site.data.presentation %}
+  <a href="{{ prs.url }}" target="_blank" class="prs">
+    <div class="prs-img">
+      <img src="{{prs.img}}" alt="">
+    </div>
+    <div class="prs-dsc">
+      {{ prs.title }}<br>
+      {{ prs.date }}
+    </div>
+  </a>
+  {% endfor %}
+</div>
 <div id="Blog" class="section">
   <h2>最近の記事</h2>
   {% for post in site.categories.Blog %}
