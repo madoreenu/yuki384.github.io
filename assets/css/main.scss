@@ -136,20 +136,22 @@ h2{
   color:#888;
 }
 .post_text h3{
+  font-weight: 500;
   margin: 0;
 }
 .post{
+  border-radius: 8px;
+  border: solid 4px #FFF;
   display: table;
-  margin-bottom: 8px;
-  border-bottom: solid 1px #aaa;
-  padding: 8px;
+  margin-bottom: 4px;
+  padding: 16px;
   width: calc(100% - 26px);
   text-align: left;
+  transition: .3s;
 }
 .post:hover{
-  box-shadow:0px 0px 6px 3px #ddd;
-  border-radius: 8px;
   transition:.3s;
+  border: solid 4px #FFBF58;
 }
 .post_text{
   display: table-cell;
