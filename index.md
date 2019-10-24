@@ -27,10 +27,12 @@ layout: default
     <img src="/img/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail">
     {%else%}
     {%endif%}
-    <h3>{{post.title}}</h3>
-    {% for tag in post.tags %}
-    <p class="tag">{{tag}}</p>
-    {% endfor %}
+    <div class="prj-dsc">
+      <h3>{{post.title}}</h3>
+      {% for tag in post.tags %}
+      <p class="tag">{{tag}}</p>
+      {% endfor %}
+    </div>
   </div></a>
   {% endfor %}
 </div>
