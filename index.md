@@ -36,6 +36,14 @@ layout: default
   </div></a>
   {% endfor %}
 </div>
+<div id="achievement" class="section">
+  <h2>Achievement</h2>
+  <ul class="achi">
+  {% for achi in site.data.achievement %}
+  <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement">{{ achi.event }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
 <div id="Presentation" class="section">
   <h2>Presentation slide</h2>
   {% for prs in site.data.presentation %}

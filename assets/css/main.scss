@@ -345,3 +345,18 @@ footer{
   height: calc(20vw);
   object-fit: cover;
 }
+.achi{
+  li{
+    line-height: 2.4em;
+  }
+  a{
+    text-align: right;
+  }
+}
+.achi-title{
+  background-color: #8D6AFF;
+  border-radius: 4px;
+  color: #fff;
+  padding: 4px 8px;
+  margin-left: 4px;
+}
