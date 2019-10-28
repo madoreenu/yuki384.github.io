@@ -37,7 +37,7 @@ layout: default
   {% endfor %}
 </div>
 <div id="achievement" class="section">
-  <h2>Achievement</h2>
+  <h2>Achievements</h2>
   <ul class="achi">
   {% for achi in site.data.achievement %}
   <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement">{{ achi.event }}</a></li>
@@ -45,7 +45,7 @@ layout: default
   </ul>
 </div>
 <div id="Presentation" class="section">
-  <h2>Presentation slide</h2>
+  <h2>Presentation Slides</h2>
   {% for prs in site.data.presentation %}
   <a href="{{ prs.url }}" target="_blank" class="prs">
     <div class="prs-img">
@@ -72,7 +72,7 @@ layout: default
   {% endfor %}
 </div>
 <div id="Articles" class="section">
-  <h2>Article</h2>
+  <h2>Articles</h2>
   <ul>
     {% for article in site.data.article %}
       <li><a href="{{article.url}}">{{article.title}}</a></li>
