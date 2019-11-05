@@ -11,6 +11,14 @@ body{
   font-family: 'M PLUS Rounded 1c', sans-serif;
   color: #555;
 }
+a{
+  &:link{
+    color: #3658b1;
+  }
+  &:visited{
+    color: #8D6AFF;
+  }
+}
 .section{
   padding: 5vh 16px;
   margin: auto;
