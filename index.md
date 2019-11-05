@@ -79,6 +79,10 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+<div class="section">
+  <h2>GitHub Activities</h2>
+  <a href="https://github.com/yuki384"><i class="fab fa-github"></i> yuki384<img src="https://grass-graph.moshimo.works/images/yuki384.png" alt="" class="shiba-img"></a>
+</div>
 </div>
 <div id="hukidashis">
 </div><div class="neko-anime" onclick="neko()"><img src="img/nyan.svg" alt="" class="neko"></div>
