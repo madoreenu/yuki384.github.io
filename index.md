@@ -19,6 +19,14 @@ layout: default
     </div>
   </div>
 </div>
+<div id="skill" class="section">
+  {% for work in site.data.skill %}
+  <div class="work">
+    <img src="{{site.url}}/img/icons/{{work.img}}" alt="">
+    <h3>{{work.name}}</h3>
+  </div>
+  {% endfor %}
+</div>
 <div id="Works" class="section">
   <h2>Works</h2>
   {% for post in site.categories.Works %}
