@@ -7,7 +7,7 @@ layout: default
     <h1><a href="" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>
   </div>-->
 <div id="about">
-  <div class="section">
+  <section>
     <img src="/img/logo-white.png" alt="yuki mihashi" height="50px"><br>
     {{site.description}}<br>
     <h3>三橋 優希 (みはし ゆうき)</h3>
@@ -28,17 +28,17 @@ layout: default
       <a href="https://scratch.mit.edu/users/yuki384/"><i class="fas fa-flag"></i><p> Scratch</p></a>
       <a href="http://scratch-yuki.hatenadiary.jp/"><i class="fas fa-pen-nib"></i><p> Blog</p></a>
     </div>
-  </div>
+  </section>
 </div>
-<div id="skill" class="section">
+<section id="skill">
   {% for work in site.data.skill %}
   <div class="work">
     <img src="{{site.url}}/img/icons/{{work.img}}" alt="">
     <h3>{{work.name}}</h3>
   </div>
   {% endfor %}
-</div>
-<div id="Works" class="section">
+</section>
+<section id="Works">
   <h2>Works</h2>
   {% for post in site.categories.Works %}
   <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
@@ -54,16 +54,16 @@ layout: default
     </div>
   </div></a>
   {% endfor %}
-</div>
-<div id="achievement" class="section">
+</section>
+<section id="achievement">
   <h2>Achievements</h2>
   <ul class="achi">
   {% for achi in site.data.achievement %}
   <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement">{{ achi.event }}</a></li>
   {% endfor %}
   </ul>
-</div>
-<div id="Presentation" class="section">
+</section>
+<section id="Presentation">
   <h2>Presentation Slides</h2>
   {% for prs in site.data.presentation %}
   <a href="{{ prs.url }}" target="_blank" class="prs">
@@ -76,8 +76,8 @@ layout: default
     </div>
   </a>
   {% endfor %}
-</div>
-<div id="Blog" class="section">
+</section>
+<section id="Blog">
   <h2>Blog</h2>
   {% for post in site.categories.Blog %}
   <a href="{{ site.baseurl }}{{ post.url }}">
@@ -89,19 +89,19 @@ layout: default
   </article>
   </a>
   {% endfor %}
-</div>
-<div id="Articles" class="section">
+</section>
+<section id="Articles">
   <h2>Articles</h2>
   <ul>
     {% for article in site.data.article %}
       <li><a href="{{article.url}}">{{article.title}}</a></li>
     {% endfor %}
   </ul>
-</div>
-<div class="section">
+</section>
+<section>
   <h2>GitHub Activities</h2>
   <a href="https://github.com/yuki384"><i class="fab fa-github"></i> yuki384<img src="https://grass-graph.moshimo.works/images/yuki384.png" alt="" class="shiba-img"></a>
-</div>
+</section>
 </div>
 <div id="hukidashis">
 </div><div class="neko-anime" onclick="neko()"><img src="img/nyan.svg" alt="" class="neko"></div>
