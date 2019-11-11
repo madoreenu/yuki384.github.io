@@ -2,14 +2,25 @@
 layout: default
 ---
 <div class="main">
-  <div class="cover">
-    <h1><a href="/profile/" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>
-  </div>
+  <!--<div class="cover">
+    <h1>{{site.title}}</h1>
+    <h1><a href="" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>
+  </div>-->
 <div id="about">
   <div class="section">
     <img src="/img/logo-white.png" alt="yuki mihashi" height="50px"><br>
     {{site.description}}<br>
-    <a href="/profile/" style="color:#fff;">プロフィール</a>
+    <h3>三橋 優希 (みはし ゆうき)</h3>
+    <i class="fas fa-map-marker-alt"></i> 東京<br>
+    <i class="fas fa-school"></i> N高等学校 4期生<br>
+
+    絵を描いたり、Webアプリを作ったり、ゲームを作ったりしています。<br>
+    yukimihashih@gmail.com
+    <h3>どんなことをやっているの？</h3>
+    プログラミング道場「CoderDojo」メンター<br>
+    プログラミングサークル「ECoder’s」主宰<br>
+    未踏ジュニア 2018年度 スーパークリエータ<br>
+    セキュリティハッカソン「SecHack365」2期 トレーニー<br>
     <div class="sns">
       <a href="https://twitter.com/YukiMihashi"><i class="fab fa-twitter"></i><p> Twitter</p></a>
       <a href="https://www.instagram.com/yukimihashi/"><i class="fab fa-instagram"></i><p> Instagram</p></a>
