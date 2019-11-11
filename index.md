@@ -39,7 +39,7 @@ layout: default
   {% endfor %}
 </section>
 <section id="Works">
-  <h2>Works</h2>
+  <h2 class="top-h2">WORK</h2>
   {% for post in site.categories.Works %}
   <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
     {% if post.thumbnail %}
@@ -56,7 +56,7 @@ layout: default
   {% endfor %}
 </section>
 <section id="achievement">
-  <h2>Achievements</h2>
+  <h2 class="top-h2">ACHIEVEMENT</h2>
   <ul class="achi">
   {% for achi in site.data.achievement %}
   <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement">{{ achi.event }}</a></li>
@@ -66,7 +66,7 @@ layout: default
 
 <div class="green">
 <section id="Presentation">
-  <h2>Presentation Slides</h2>
+  <h2 class="top-h2">PRESENTATION SLIDE</h2>
   {% for prs in site.data.presentation %}
   <a href="{{ prs.url }}" target="_blank" class="prs">
     <div class="prs-img">
@@ -81,7 +81,7 @@ layout: default
 </section>
 </div>
 <section id="Blog">
-  <h2>Blog</h2>
+  <h2 class="top-h2">BLOG</h2>
   {% for post in site.categories.Blog %}
   <a href="{{ site.baseurl }}{{ post.url }}">
   <article class="post">
@@ -94,7 +94,7 @@ layout: default
   {% endfor %}
 </section>
 <section id="Articles">
-  <h2>Articles</h2>
+  <h2 class="top-h2">ARTICLE</h2>
   <ul>
     {% for article in site.data.article %}
       <li><a href="{{article.url}}">{{article.title}}</a></li>
@@ -102,7 +102,7 @@ layout: default
   </ul>
 </section>
 <section>
-  <h2>GitHub Activities</h2>
+  <h2 class="top-h2">GITHUB ACTIVITIES</h2>
   <a href="https://github.com/yuki384"><i class="fab fa-github"></i> yuki384<img src="https://grass-graph.moshimo.works/images/yuki384.png" alt="" class="shiba-img"></a>
 </section>
 </div>
