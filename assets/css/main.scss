@@ -31,7 +31,7 @@ section{
 .cover{
   //background-image: url("/img/cover.png");
   background-size: cover;
-  height: 60vh;
+  height: 100vh;
   text-align: center;
   position: relative;
 }
@@ -41,7 +41,7 @@ section{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   color: #ff4d8c;
-  font-family: 'Baloo', cursive;
+  font-family: 'Raleway';
   text-shadow:3px 3px 0 #FFF, -3px -3px 0 #FFF,
               -3px 3px 0 #FFF, 3px -3px 0 #FFF,
               0px 3px 0 #FFF,  0-3px 0 #FFF,
