@@ -64,7 +64,6 @@ layout: default
   </ul>
 </section>
 
-<div class="green">
 <section id="Presentation">
   <h2 class="top-h2">PRESENTATION SLIDE</h2>
   {% for prs in site.data.presentation %}
@@ -79,7 +78,6 @@ layout: default
   </a>
   {% endfor %}
 </section>
-</div>
 <section id="Blog">
   <h2 class="top-h2">BLOG</h2>
   {% for post in site.categories.Blog %}

@@ -419,19 +419,3 @@ footer{
     max-width: 100%;
   }
 }
-.green{
-  position: relative;
-  &::before{
-    background-color: #e2f4ef;
-    width: 120%;
-    height: 100%;
-    margin: -2% -10% 0;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: rotate(2deg);
-    z-index: -1;
-    transform-origin: left center;
-  }
-}
