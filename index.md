@@ -14,6 +14,7 @@ layout: default
       </div>
     </div>
   </div>
+  {% include me.html %}
 <section id="skill">
   {% for work in site.data.skill %}
   <div class="work">

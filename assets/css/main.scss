@@ -426,3 +426,17 @@ footer{
     max-width: 100%;
   }
 }
+
+.me{
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.cheek{
+  animation: cheek 1.2s ease-in-out infinite alternate;
+}
+@keyframes cheek {
+  0%{ transform:translateY(4px);}
+  100%{ transform:translateY(-4px);}
+}
