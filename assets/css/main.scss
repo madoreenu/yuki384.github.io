@@ -49,25 +49,33 @@ section{
 .cover a{
   text-decoration: none;
 }
+.cover-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 .sns a{
-  color: #fff;
-  font-size: 16px;
-  padding: 6px 12px;
-  border-radius: 8px;
-  border: solid 2px #fff;
-  margin:12px 4px;
+  color: inherit;
+  font-size: 24px;
+  padding: 6px;
+  margin:0 12px;
   display: inline-block;
   text-decoration: none;
-  font-family: 'Baloo', cursive;
+  &:hover{
+    color:#31bccc;
+    background-color:#fff;
+    transition:.3s;
+  }
 }
 .sns p{
   margin: 0;
   display: inline;
 }
-.sns a:hover{
-  color:#31bccc;
-  background-color:#fff;
-  transition:.3s;
+
+.top-img{
+  height: 80px;
 }
 
 .page-not-found{
