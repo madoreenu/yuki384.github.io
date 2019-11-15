@@ -491,10 +491,12 @@ text-decoration: none;
   100%{ transform:translateY(-4px);}
 }
 
-.arm-right{
-  animation: rightarm 1.2s ease-in-out infinite alternate;
+.eyes{
+  animation: eyes 3s ease-in infinite alternate;
 }
-@keyframes rightarm{
-  0%{ transform:lotateY(4deg);}
-  100%{ transform:lotateY(-4deg);}
+@keyframes eyes {
+  0% { visibility: visible; z-index: 100; }
+  15% { visibility: visible; z-index: 100; }
+  90% { visibility: hidden; z-index: 0; }
+  100% { visibility: hidden; z-index: 0; }
 }
