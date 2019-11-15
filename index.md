@@ -14,7 +14,17 @@ layout: default
       </div>
     </div>
   </div>
+  <section id="aboutme">
   {% include me.html %}
+  <div class="aboutme-text">
+    <h3>三橋 優希 (みはし ゆうき)</h3>
+    <i class="fas fa-map-marker-alt fa-fw"></i> 東京<br>
+    <i class="fas fa-school fa-fw"></i> N高等学校 4期生<br>
+    <i class="fas fa-tools fa-fw"></i> イラスト、UIデザイン、Webサイト<br>
+    <i class="fas fa-envelope fa-fw"></i> yukimihashih@gmail.com<br>
+    <i class="fas fa-user fa-fw"></i> CoderDojoメンター / ECoder’s主宰 / 未踏ジュニア 2018年度 スーパークリエータ / SecHack365 2期 トレーニー
+  </div>
+  </section>
 <section id="skill">
   {% for work in site.data.skill %}
   <div class="work">

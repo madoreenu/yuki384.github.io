@@ -464,7 +464,23 @@ text-decoration: none;
 .me{
   width: 120px;
   display: block;
-  margin: auto;
+  margin: 24px;
+  float: left;
+}
+.aboutme-text{
+  line-height: 1.8em;
+  i{
+    color: #bed4e6;
+  }
+}
+@media screen and (max-width:800px) {
+  .me{
+    float: none;
+    margin: auto;
+  }
+  .aboutme-text h3{
+    text-align: center;
+  }
 }
 
 .cheek{
