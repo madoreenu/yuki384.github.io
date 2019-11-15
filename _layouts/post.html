@@ -6,7 +6,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 <div class="date">{{ page.date | date:"%Y/%-m/%d" }}</div>
 {% if page.thumbnail %}
-<img src="/img/{{page.thumbnail}}" alt="" class="thumbnail">
+<img src="{{site.url}}/img/{{page.categories}}/{{page.thumbnail}}" alt="" class="thumbnail">
 {% endif %}
 <div class='content'>
   {{ content }}

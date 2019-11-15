@@ -38,7 +38,7 @@ layout: default
   {% for post in site.categories.Works %}
   <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
     {% if post.thumbnail %}
-    <img src="/img/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail">
+    <img src="{{site.url}}/img/{{post.categories}}/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail">
     {%else%}
     {%endif%}
     <div class="prj-dsc">
@@ -78,7 +78,7 @@ layout: default
   {% for post in site.categories.Blog %}
   <a href="{{ site.baseurl }}{{ post.url }}">
   <article class="post">
-    <img src="/img/{{post.thumbnail}}" alt="" class="blog_thumnail">
+    <img src="{{site.url}}/img/{{post.categories}}/{{post.thumbnail}}" alt="" class="blog_thumnail">
     <div class="post_text">
       <p>{{post.date | date:"%Y/%m/%d"}}</p><h3>{{post.title}}</h3>
     </div>
