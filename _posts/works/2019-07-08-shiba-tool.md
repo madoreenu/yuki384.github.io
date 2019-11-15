@@ -4,7 +4,7 @@ title:  "GitHub Style Pixel Art Maker"
 date:   2019-07-08 17:32:00 +0900
 categories: [Works]
 tags: Scratch
-thumbnail: shiba_tool.png
+thumbnail: shiba_tool.jpg
 ---
 ## 概要 About this
 「GitHubの芝」風のドット絵が描けるツールです。

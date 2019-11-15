@@ -3,7 +3,7 @@ layout: post
 title:  "RubyKaigi2019に行ってきました💎"
 date:   2019-04-21 12:00:00 +0900
 categories: [Blog]
-thumbnail: rubykaigi2019.png
+thumbnail: rubykaigi2019.jpeg
 ---
 RailsGirlsJPさんの支援で、2019/04/18~20に[RubyKaigi2019](https://rubykaigi.org/2019)へ参加してきました！楽しかった！
 

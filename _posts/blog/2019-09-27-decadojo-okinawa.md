@@ -3,7 +3,7 @@ layout: post
 title:  "沖縄のCoderDojoのイベントに<br>登壇しました☯"
 date:   2019-09-27 10:00:00 +0900
 categories: [Blog]
-thumbnail: decadojo.png
+thumbnail: decadojo.jpg
 ---
 9/28、沖縄県浦添市で開催された [浦添プログラミングフェスティバル with でかドージョー!!](http://www.coderdojo-urasoe.com/?p=1082) に特別参加しました！
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Jekyllでポートフォリオサイトを作りました！✨"
 date:   2019-04-24 16:34:00 +0900
 categories: [Blog]
-thumbnail: portforio.png
+thumbnail: portforio.jpg
 ---
 Jekyllでポートフォリオサイトを作りました！
 ## Jekyllって何？

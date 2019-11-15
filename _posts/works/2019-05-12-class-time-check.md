@@ -3,7 +3,7 @@ layout: post
 title:  "授業進捗チェッカー"
 date:   2019-05-12 16:42:00 +0900
 categories: [Works]
-thumbnail: time-check.png
+thumbnail: time-check.jpg
 tags: JavaScript
 ---
 ## 概要

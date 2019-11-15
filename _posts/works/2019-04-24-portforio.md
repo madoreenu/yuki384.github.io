@@ -4,7 +4,7 @@ title:  "ポートフォリオサイト"
 date:   2019-04-24 17:18:00 +0900
 categories: [Works]
 tags: HTML CSS Design
-thumbnail: portforio.png
+thumbnail: ../Blog/portforio.jpg
 ---
 ## 概要
 作品など日々のアウトプットをまとめた、自身をアピールするサイト。

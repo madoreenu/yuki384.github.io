@@ -4,7 +4,7 @@ title:  "CONSTELLATOR!"
 date:   2019-10-20 12:00:00 +0900
 categories: [Works]
 tags: フロントエンド Webデザイン
-thumbnail: constellator.png
+thumbnail: constellator.jpg
 ---
 ## 概要 About this
 NASA Space Apps Challenge Kushimotoというハッカソンで、「星座をつくり共有するサービス」をチームで開発しました。
