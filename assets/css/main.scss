@@ -117,8 +117,8 @@ section{
   color: #555;
   float: left;
   position: relative;
-    width: calc(50% - (6px * 2));
-    height: 200px;
+  width: calc(50% - (6px * 2));
+  height: 200px;
 }
 .project>img{
   width: 100%;
@@ -150,7 +150,25 @@ section{
    }
 }
 @media screen and (max-width:800px) {
-
+  .prj-dsc{
+    opacity: 1;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: inherit;
+    padding: 0;
+    margin-bottom: 36px;
+    h3{
+      color: inherit;
+      margin: 8px 0;
+    }
+  }
+  .thumbnail{
+    height: 200px;
+  }
+  .project{
+    height: auto;
+  }
 }
 
 #about{
@@ -356,6 +374,7 @@ footer{
   border-radius: 0 0 4px 4px;
 }
 .prs{
+text-decoration: none;
   margin: 4px;
   float: left;
   border-radius: 4px;
@@ -371,6 +390,21 @@ footer{
 @media screen and (max-width:800px) {
   .prs{
     width: 100%;
+    height: auto;
+  }
+
+  .prs-dsc{
+    color: #393c5d;
+    opacity: 1;
+    position: static;
+    width: auto;
+    height: auto;
+    background-color: inherit;
+    padding: 0;
+    margin-bottom: 36px;
+    h3{
+      margin: 8px 0;
+    }
   }
 }
 
@@ -439,4 +473,12 @@ footer{
 @keyframes cheek {
   0%{ transform:translateY(4px);}
   100%{ transform:translateY(-4px);}
+}
+
+.arm-right{
+  animation: rightarm 1.2s ease-in-out infinite alternate;
+}
+@keyframes rightarm{
+  0%{ transform:lotateY(4deg);}
+  100%{ transform:lotateY(-4deg);}
 }
