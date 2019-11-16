@@ -402,7 +402,7 @@ header{
 
 .tag{
   display: inline;
-  background-color: #FF6AA9;
+  background-color: $maincolor;
   color: #fff;
   padding: 2px 8px;
   border-radius: 2px;
@@ -526,7 +526,7 @@ text-decoration: none;
   }
 }
 .achi-title{
-  background-color: $purple;
+  background-color: $maincolor;
   border-radius: 4px;
   color: #fff;
   padding: 4px 8px;
