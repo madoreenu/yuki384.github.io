@@ -169,9 +169,6 @@ section{
       margin: 8px 0;
     }
   }
-  .thumbnail{
-    height: 200px;
-  }
   .project{
     height: auto;
   }
@@ -262,6 +259,7 @@ footer>a{
 .date{
   font-size: 18px;
   color: #aaa;
+  margin: 8px 0;
 }
 
 
@@ -494,7 +492,8 @@ text-decoration: none;
   letter-spacing: .05em;
 }
 .post-content{
-  width: 620px;
+  max-width: 620px;
+  overflow: visible;
 }
 
 .work{
