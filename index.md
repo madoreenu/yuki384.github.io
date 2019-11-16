@@ -54,7 +54,7 @@ layout: default
   <h2 class="top-h2">ACHIEVEMENT</h2>
   <ul class="achi">
   {% for achi in site.data.achievement %}
-  <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement">{{ achi.event }}</a></li>
+  <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement" rel="noopener">{{ achi.event }}</a></li>
   {% endfor %}
   </ul>
 </section>
@@ -62,7 +62,7 @@ layout: default
 <section id="Presentation">
   <h2 class="top-h2">PRESENTATION SLIDE</h2>
   {% for prs in site.data.presentation %}
-  <a href="{{ prs.url }}" target="_blank" class="prs">
+  <a href="{{ prs.url }}" target="_blank" class="prs" rel="noopener">
     <div class="prs-img">
       <img src="{{prs.img}}" alt="" loading="lazy">
     </div>
@@ -90,7 +90,7 @@ layout: default
   <h2 class="top-h2">ARTICLE</h2>
   <ul>
     {% for article in site.data.article %}
-      <li><a href="{{article.url}}">{{article.title}}</a></li>
+      <li><a href="{{article.url}}" target="_blank" rel="noopener">{{article.title}}</a></li>
     {% endfor %}
   </ul>
 </section>
