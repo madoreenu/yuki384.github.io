@@ -205,7 +205,7 @@ section{
 
 .post_text p{
   margin: 0;
-  color:#888;
+  color:$maincolor;
 }
 .post_text h3{
   font-weight: 500;
@@ -241,17 +241,17 @@ section{
 }
 #Blog a{
   text-decoration: none;
-  color: #333;
+  color: $main-textcolor;
 }
 
 footer{
-  background-color: #c6c6c6;
+  background-color: $main-textcolor;
   padding: 4vw 12vw;
   text-align: center;
   color:#fff;
 }
 footer>a{
-  color: #fff;
+  color: #fff !important;
 }
 
 .section>h1{
