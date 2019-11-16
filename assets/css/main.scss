@@ -267,12 +267,49 @@ footer>a{
 
 header{
   background-color: #fafafa;
-  padding: 12px 24px;
-  border-bottom: solid 4px $pink;
+  //padding: 12px 24px;
+  position: relative;
+  border-radius: 36px;
+  width: 78vw;
+  margin: 0 auto;
+  height: 72px;
+  line-height: 72px;
+  > a{
+    display: block;
+    float: left;
+  }
 }
 .logo{
-  height: 6vh;
+  height: 36px;
+  vertical-align: middle;
+  margin-left: 4vw;
 }
+.site-top-nav{
+  position: absolute;
+  top:0;
+  right: 4vw;
+}
+.site-top-nav-list{
+  margin: 0;
+  padding: 0;
+  li{
+    display: inline;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding: 12px;
+    letter-spacing: .2em;
+  }
+  li a{
+    text-decoration: none;
+    color: $main-textcolor;
+    transition: .3s;
+  }
+  li a:hover{
+    color: $maincolor;
+    transition: .3s;
+  }
+}
+
 @media screen and (max-width:800px) {
   .page-not-found{
     text-align: center;
