@@ -310,6 +310,16 @@ header{
   }
 }
 
+.post-head{
+  padding: 36px 11% 24px;
+  background-color: $maincolor;
+  color: #fff;
+  text-align: center;
+  h2{
+    margin-top: 3em;
+  }
+}
+
 @media screen and (max-width:800px) {
   .page-not-found{
     text-align: center;
