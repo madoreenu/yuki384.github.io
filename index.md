@@ -7,9 +7,9 @@ layout: default
       <img src="{{site.url}}/img/logo.png" alt="" class="top-img">
       <!--<h1><a href="" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>-->
       <div class="sns">
-        <a href="https://twitter.com/YukiMihashi"><i class="fab fa-twitter"></i></a>
+        <a href="https://twitter.com/{{site.twitter_username}}"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/yukimihashi/"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/yuki384"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/{{site.github_username}}"><i class="fab fa-github"></i></a>
         <a href="https://scratch.mit.edu/users/yuki384/"><i class="fas fa-cat"></i></a>
       </div>
     </div>
@@ -21,7 +21,7 @@ layout: default
     <i class="fas fa-map-marker-alt fa-fw"></i> 東京<br>
     <i class="fas fa-school fa-fw"></i> N高等学校 4期生<br>
     <i class="fas fa-tools fa-fw"></i> イラスト、UIデザイン、Webサイト<br>
-    <i class="fas fa-envelope fa-fw"></i> yukimihashih@gmail.com<br>
+    <i class="fas fa-envelope fa-fw"></i> {{site.email}}<br>
     <i class="fas fa-user fa-fw"></i> CoderDojoメンター / ECoder’s主宰 / 未踏ジュニア 2018年度 スーパークリエータ / SecHack365 2期 トレーニー
   </div>
   </section>
