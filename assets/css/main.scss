@@ -276,6 +276,13 @@ header{
     display: block;
     float: left;
   }
+  label{
+    position: absolute;
+    display: none;
+    color: $main-textcolor;
+    font-size: 24px;
+    right: 4vw;
+  }
 }
 .logo{
   height: 36px;
@@ -307,6 +314,12 @@ header{
     transition: .3s;
   }
 }
+#navbar-check{
+  display: none;
+}
+.navbar-label-close{
+  display: none;
+}
 
 .post-head{
   padding: 36px 11% 24px;
@@ -319,6 +332,42 @@ header{
 }
 
 @media screen and (max-width:800px) {
+  header{
+    width: 100vw;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    label{
+      display: inline-block;
+    }
+  }
+  .site-top-nav{
+    opacity: 0;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    width: 100vw;
+    right: 0;
+    position: static;
+    transition: .3s;
+  }
+  #navbar-check:checked ~ .site-top-nav{
+    opacity: 1;
+  }
+  #navbar-check:checked ~ .navbar-label-close{
+    display: block;
+  }
+  #navbar-check:checked ~ .navbar-label-open{
+    display: none;
+  }
+  .site-top-nav-list{
+    li{
+      display: block;
+      line-height: 36px;
+    }
+  }
+
   .page-not-found{
     text-align: center;
   }
