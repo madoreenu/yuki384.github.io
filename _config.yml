@@ -18,7 +18,7 @@ email: yukimihashih@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   三橋優希です。WebやUIのデザインとWeb開発をしています。このサイトでは今までの作品やブログ等をまとめています。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yuki384.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YukiMihashi
 github_username:  yuki384
 
