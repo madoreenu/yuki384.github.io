@@ -607,3 +607,19 @@ text-decoration: none;
     margin-top: 16px;
   }
 }
+
+.share{
+  text-align: right;
+  a{
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .share-twitter{
+    background-color: #1DA1F2;
+  }
+  .share-facebook{
+    background-color: #3B5998;
+  }
+}
