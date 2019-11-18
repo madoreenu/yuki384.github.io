@@ -623,3 +623,28 @@ text-decoration: none;
     background-color: #3B5998;
   }
 }
+.blue{
+  background-color: $maincolor;
+}
+#profile{
+  color: #fff;
+  h3{
+    margin-bottom: 2px;
+  }
+  .sns a{
+    border-radius: 24px;
+  }
+  @media screen and (max-width:800px) {
+    text-align: center;
+  }
+}
+.profile-img{
+  width: 120px;
+  border-radius: 60px;
+  float: left;
+  margin-right: 20px;
+  @media screen and (max-width:800px) {
+    float: none;
+    margin: 0;
+  }
+}
