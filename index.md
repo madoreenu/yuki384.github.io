@@ -44,9 +44,11 @@ layout: default
     {%endif%}
     <div class="prj-dsc">
       <h3>{{post.title}}</h3>
+      <div class="flex">
       {% for tag in post.tags %}
       <p class="tag">{{tag}}</p>
       {% endfor %}
+      </div>
     </div>
   </a>
   {% endfor %}
