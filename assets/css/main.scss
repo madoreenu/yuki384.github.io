@@ -113,34 +113,29 @@ section{
   padding-bottom: 24px;
 }
 .project{
+  border-radius: 4px;
   background-color: #fff;
   display: block;
   margin: 6px;
   color: #555;
   float: left;
   position: relative;
+  text-decoration: none;
   width: calc(50% - (6px * 2));
-  height: 200px;
-}
-.project>img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
+  &> img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+  }
 }
 .prj-dsc{
-  border-radius: 4px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 12px;
-  opacity: 0;
-  width: calc(100% - 24px);
-  height: calc(100% - 24px);
-  background-color: rgba(88, 88, 88, 0.6);
   transition: 0.3s;
+  padding: 0 24px 24px 24px;
+  box-sizing: border-box;
   h3{
-    color: #fff;
+    color: $main-textcolor;
+    margin: .8em 0;
   }
 }
 .project:hover{
@@ -153,17 +148,8 @@ section{
 }
 @media screen and (max-width:800px) {
   .prj-dsc{
-    opacity: 1;
-    position: static;
-    width: auto;
-    height: auto;
-    background-color: inherit;
     padding: 0;
     margin-bottom: 36px;
-    h3{
-      color: inherit;
-      margin: 8px 0;
-    }
   }
   .project{
     height: auto;
@@ -649,4 +635,9 @@ text-decoration: none;
     float: none;
     margin: 0;
   }
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -35,8 +35,9 @@ layout: default
 </section>
 <section id="Works">
   <h2 class="top-h2">WORK</h2>
+  <div class="flex">
   {% for post in site.categories.Works %}
-  <a href="{{ site.baseurl }}{{ post.url }}"><div class="project">
+  <a href="{{ site.baseurl }}{{ post.url }}" class="project">
     {% if post.thumbnail %}
     <img src="{{site.url}}/img/{{post.categories}}/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail" loading="lazy">
     {%else%}
@@ -47,8 +48,9 @@ layout: default
       <p class="tag">{{tag}}</p>
       {% endfor %}
     </div>
-  </div></a>
+  </a>
   {% endfor %}
+  </div>
 </section>
 <section id="achievement">
   <h2 class="top-h2">ACHIEVEMENT</h2>
