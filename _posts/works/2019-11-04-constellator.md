@@ -3,7 +3,7 @@ layout: post
 title:  "CONSTELLATOR!"
 date:   2019-10-20 12:00:00 +0900
 categories: [Works]
-tags: フロントエンド Webデザイン
+tags: HTML CSS jQuery
 thumbnail: constellator.jpg
 ---
 ## 概要

@@ -3,7 +3,7 @@ layout: post
 title:  "ポートフォリオサイト"
 date:   2019-04-24 17:18:00 +0900
 categories: [Works]
-tags: HTML CSS Design
+tags: HTML Scss JavaScript Jelyll Illustrator
 thumbnail: ../Blog/portforio.jpg
 ---
 ## 概要

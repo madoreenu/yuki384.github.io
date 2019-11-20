@@ -4,7 +4,7 @@ title:  "つながる。"
 date:   2019-04-23 13:18:00 +0900
 categories: [Works]
 thumbnail: tsunagaru.jpg
-tags: Scratch Design
+tags: Scratch Illustrator GarageBand
 ---
 https://scratch.mit.edu/projects/275650000/
 
