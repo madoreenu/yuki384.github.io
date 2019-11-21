@@ -462,6 +462,9 @@ text-decoration: none;
     opacity: 1;
   }
 }
+.prs-img{
+  height: 100%;
+}
 
 @media screen and (max-width:800px) {
   .prs{
@@ -482,10 +485,10 @@ text-decoration: none;
       margin: 8px 0;
     }
   }
-}
-
-.prs-img{
-  height: 100%;
+  
+  .prs-img{
+    height: auto;
+  }
 }
 .prs-img img{
   border-radius: 4px;
