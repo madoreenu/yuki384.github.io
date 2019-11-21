@@ -65,17 +65,19 @@ layout: default
 
 <section id="Presentation">
   <h2 class="top-h2">PRESENTATION SLIDE</h2>
-  {% for prs in site.data.presentation %}
-  <a href="{{ prs.url }}" target="_blank" class="prs" rel="noopener">
-    <div class="prs-img">
-      <img src="{{prs.img}}" alt="" loading="lazy">
-    </div>
-    <div class="prs-dsc">
-      {{ prs.title }}<br>
-      {{ prs.date }}
-    </div>
-  </a>
-  {% endfor %}
+  <div class="flex">
+    {% for prs in site.data.presentation %}
+    <a href="{{ prs.url }}" target="_blank" class="prs" rel="noopener">
+      <div class="prs-img">
+        <img src="{{prs.img}}" alt="" loading="lazy">
+      </div>
+      <div class="prs-dsc">
+        {{ prs.title }}<br>
+        {{ prs.date }}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </section>
 <section id="Blog">
   <h2 class="top-h2">BLOG</h2>
