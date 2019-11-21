@@ -78,6 +78,7 @@ layout: default
     </a>
     {% endfor %}
   </div>
+  <a href="https://speakerdeck.com/yuki384" class="button">もっと見る</a>
 </section>
 <section id="Blog">
   <h2 class="top-h2">BLOG</h2>

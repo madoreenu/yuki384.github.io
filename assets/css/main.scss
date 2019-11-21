@@ -635,3 +635,20 @@ text-decoration: none;
   display: flex;
   flex-wrap: wrap;
 }
+
+.button{
+  display: block;
+  background-color: $maincolor;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 12px auto;
+  transition: .3s;
+  &:hover{
+    background-color: $light-gray;
+    color: $main-textcolor !important;
+    transition: .3s;
+  }
+}
