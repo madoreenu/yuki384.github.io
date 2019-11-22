@@ -19,27 +19,27 @@ thumbnail: mitoujr_shenzhen_tour_2019/thumbnail.jpg
 
 ## 🤖💡 2日目 DJI/電気街
 
-![DJIの説明会]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/dji.jpg)
+![DJIの説明会]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/dji.jpg)
 
 午前中は[世界最大のドローンメーカーDJI](https://www.dji.com/jp)の製品紹介・ワークショップに参加しました。
 ロボットの大会「RoboMaster」についての説明が聞けたので、翌日に向けての予備知識がついて良かったです。
 
-![RoboMaster S1を操作]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/robomaster_s1.jpg)
+![RoboMaster S1を操作]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/robomaster_s1.jpg)
 
 DJIが最近発売した教育用ロボット、[RoboMaster S1](https://www.dji.com/jp/robomaster-s1)を操作させてもらいました。Scratch3.0対応と書いてあり、Scratch好きな私としてはワクワクしていたのですが、正確にはScratchベースの独自のビジュアルプログラミング言語でした。
 
 RoboMaster S1にはジェスチャー認識やマーカー認識、その他にもさまざまな認識機能がついているため、プログラムの幅が広がりそうだと思いました。
 また、ゲームプレイモードにでき、リアルFPSゲームのように遊ぶことができます。実際に参加者内で小さな大会があり、そこで体験することが出来ました。5人中3位という、なんとも言えない結果になりましたが、楽しかったです。
 
-![電気街]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/shenzhen_電気街.jpg)
+![電気街]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/shenzhen_電気街.jpg)
 
 午後は世界最大の電気街と言われている、華強北(フアチャンベイ)に訪れました。電子工作には詳しくないのですが、電子部品だけではなく、出来上がった製品も並んでいたため、見ているだけでワクワクします。
 
-![電子メモ帳を購入]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/pirka.jpg)
+![電子メモ帳を購入]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/pirka.jpg)
 
 私は35元(530円程)でLCD(液晶表示装置) Writing Tabletなるものを買いました。数学の問題を解く時とか、絵を描きたい時に使えそうです。
 
-![ショッピング]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/shopping.jpg)
+![ショッピング]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/shopping.jpg)
 
 スターバックスで一服後、ショッピングモールに行きました。先程のビルとはだいぶ違った雰囲気で、服などを売っている店があり、日本のコストコ隣にありそう(これはバイアスがかかっていますね)などと感じました。徒歩2分ほどでこの差が生まれている混沌さが好きだなあなどと。
 
@@ -47,7 +47,7 @@ RoboMaster S1にはジェスチャー認識やマーカー認識、その他に�
 
 その後はXiaomiのショップでウィンドウショッピング。荷物をコンパクトにするためスーツケースを持っていかなかったので、良さそうなスーツケースがあれば購入しようと探してみたり。Xiaomiはスマートフォンのイメージが強かったのですが、想像以上にさまざまな製品を取り扱っていることを知りました。
 
-![道端ゲーム実況]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/game.jpg)
+![道端ゲーム実況]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/game.jpg)
 
 道端ゲーム実況。
 
@@ -57,7 +57,7 @@ RoboMaster S1にはジェスチャー認識やマーカー認識、その他に�
 
 ## 📕🤖 3日目 本屋/RoboMaster
 
-![本を購入]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/scratch_book.jpg)
+![本を購入]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/scratch_book.jpg)
 
 午前中は本屋へ。Scratchの本を二冊購入しました📕😺
 Pythonが流行りらしく、たくさん積まれていました。一方Rubyの本は見つけられず…＞＜
@@ -70,14 +70,14 @@ Pythonが流行りらしく、たくさん積まれていました。一方Ruby�
 単純に「うおお、ロボットプログラミングかっこよさそう」という印象を受けました。
 RoboMasterについてわかりやすい記事があったので、貼っておきます。[http://projectrm.niwakasoft.jp/what-is-robomaster/](http://projectrm.niwakasoft.jp/what-is-robomaster/)
 
-![噴水]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/funsui.jpg)
+![噴水]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/funsui.jpg)
 
 夜は、噴水を観に行きました〜⛲✨なんでも光らせるのが流行っているのかな。などと。
 
 ホテルの屋内プールに入りました🏊未踏ジュニアOBの方やPMと話せてよかったです。最近は泳がない人間ですが、たまには泳いでも良いかもなぁ。
 ## 🤝💻 4日目 ハッカソン
 
-![私と猫]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/codemao.jpg)
+![私と猫]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/codemao.jpg)
 
 この日は一日中、現地の中高生と二人チームでハッカソンをしました！
 私たちのチームはごみの分別をテーマにしたパズルゲームを作ることにしました。
@@ -86,7 +86,7 @@ RoboMasterについてわかりやすい記事があったので、貼ってお�
 
 今回使ったのは[Codemao](https://ide.codemao.cn)というビジュアルプログラミングツールです。Scratchと似ており、機能的には「かゆいところに手が届く」ものだと思いました。UIは好みではありませんが、面白かったです。
 
-![猫]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/codemao_mao.jpg)
+![猫]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/codemao_mao.jpg)
 
 Codemaoのオフィス内に、2匹の猫がいました…！！かわいかったのでハッカソンの疲れもぶっ飛びました😻
 
@@ -94,7 +94,7 @@ Codemaoのオフィス内に、2匹の猫がいました…！！かわいかっ
 この日の午前中はハッカソンの発表をしました。デザインとコードのマージ作業と発表のスクリプト作成で、あっという間に発表時間が来てしまいました。
 英語でプレゼンする機会はほぼないので緊張しました。ゲームの操作方法の説明が難しく、台本が作れていなかったこともありかなり焦りました。
 
-![賞]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/award.jpg)
+![賞]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/award.jpg)
 
 結果的に、Excellent Award をいただきました！ありがとうございます😍🙏(ちなみに、全員が何かしらのアワードをもらえます)
 
@@ -106,7 +106,7 @@ CoderDojoのPodcast, [DojoCast](https://coderdojo.jp/podcasts/14)の収録もし
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ハッカソンの発表後は <a href="https://twitter.com/hashtag/makeblock?src=hash&amp;ref_src=twsrc%5Etfw">#makeblock</a> さん本社にお邪魔しました🏃‍♀️<br>中の人に話を聞けて、Makeblock Neuron やCodey Rockyの実物を見れたので、行けて良かったです🐼🤖✨<br>5月に <a href="https://twitter.com/hashtag/CoderDojo?src=hash&amp;ref_src=twsrc%5Etfw">#CoderDojo</a> Japan と提携した「Makeblock HaloCode」の実物もありました👀☯️<a href="https://twitter.com/hashtag/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E6%B7%B1%E5%9C%B3%E3%83%84%E3%82%A2%E3%83%BC?src=hash&amp;ref_src=twsrc%5Etfw">#未踏ジュニア深圳ツアー</a> <a href="https://t.co/fpmb8hjb5Y">pic.twitter.com/fpmb8hjb5Y</a></p>&mdash; Yuki Mihashi (@YukiMihashi) <a href="https://twitter.com/YukiMihashi/status/1161308255114555394?ref_src=twsrc%5Etfw">August 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-![マック]({{site.baseurl}}/img/mitoujr_shenzhen_tour_2019/mcd.jpg)
+![マック]({{site.url}}/img/Blog/mitoujr_shenzhen_tour_2019/mcd.jpg)
 
 夜はお土産購入など。
 せっかくなので中国のマクドナルド視察も。商品のラインナップが日本と違いました。タピオカがあったり、牛丼があったり…！ストローやリットの素材、形もちがって面白かったです。
