@@ -4,14 +4,9 @@ layout: default
 <div class="main">
   <div class="cover">
     <div class="cover-content">
-      <img src="{{site.url}}/img/logo.png" alt="" class="top-img">
+      <img src="{{site.url}}/img/logo.svg" alt="" class="top-img">
       <!--<h1><a href="" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>-->
-      <div class="sns">
-        <a href="https://twitter.com/{{site.twitter_username}}"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/yukimihashi/"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/{{site.github_username}}"><i class="fab fa-github"></i></a>
-        <a href="https://scratch.mit.edu/users/yuki384/"><i class="fas fa-cat"></i></a>
-      </div>
+      {% include sns.html %}
     </div>
   </div>
   <section id="aboutme">

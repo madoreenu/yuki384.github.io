@@ -64,11 +64,13 @@ section{
   font-size: 24px;
   padding: 6px;
   margin:0 12px;
-  display: inline-block;
-  text-decoration: none;
-  &:hover{
-    color:$maincolor;
-    background-color:#fff;
+  & svg{
+    width: 24px;
+    fill: currentColor;
+    transition:.3s;
+  }
+  &:hover svg{
+    fill: $maincolor;
     transition:.3s;
   }
 }
@@ -78,7 +80,8 @@ section{
 }
 
 .top-img{
-  height: 80px;
+  height: 72px;
+  margin-bottom: 18px;
 }
 
 .page-not-found{
