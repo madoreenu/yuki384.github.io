@@ -181,30 +181,31 @@ section{
   object-fit: cover;
   border-radius: 4px;
 }
-
-.post_text p{
-  margin: 0;
+//旧ブログ↓
+.post-text span{
+  margin-right: 12px;
   color:$maincolor;
 }
-.post_text h3{
+.post-text h3{
   font-weight: 500;
   margin: 0;
+  font-size: 1em;
 }
 .post{
   border-radius: 8px;
   border: solid 4px #FFF;
   display: table;
   margin-bottom: 4px;
-  padding: 16px;
+  padding: 2px 16px;
   width: calc(100% - 26px);
   text-align: left;
   transition: .3s;
 }
 .post:hover{
   transition:.3s;
-  border: solid 4px #FFBF58;
+  color: $maincolor;
 }
-.post_text{
+.post-text{
   display: table-cell;
   vertical-align: middle;
   width: 80%;
@@ -222,6 +223,52 @@ section{
   text-decoration: none;
   color: $main-textcolor;
 }
+
+/*ここからブログ新レイアウト
+.post-text p{
+  margin: 0;
+  color:$maincolor;
+}
+.post-text h3{
+  font-weight: 500;
+  margin: 0;
+}
+.post{
+  border-radius: 8px;
+  display: table;
+  float: left;
+  margin-bottom: 4px;
+  padding: 16px;
+  width: 50%;
+  text-align: left;
+  transition: .3s;
+  box-sizing: border-box;
+}
+.post:hover{
+  transition:.3s;
+}
+.post-text{
+  vertical-align: middle;
+  width: 80%;
+  float: none;
+}
+.blog-thumnail{
+  width: 100%;
+  object-fit: cover;
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+#Blog {
+  display: flex;
+  flex-wrap: wrap;
+  a{
+    text-decoration: none;
+    color: $main-textcolor;
+  }
+}*/
 
 footer{
   background-color: $main-textcolor;
@@ -488,7 +535,7 @@ text-decoration: none;
       margin: 8px 0;
     }
   }
-  
+
   .prs-img{
     height: auto;
   }

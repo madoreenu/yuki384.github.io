@@ -80,9 +80,8 @@ layout: default
   {% for post in site.categories.Blog %}
   <a href="{{ site.baseurl }}{{ post.url }}">
   <article class="post">
-    <img src="{{site.url}}/img/{{post.categories}}/{{post.thumbnail}}" alt="" class="blog_thumnail" loading="lazy">
-    <div class="post_text">
-      <p>{{post.date | date:"%Y/%m/%d"}}</p><h3>{{post.title}}</h3>
+    <div class="post-text">
+      <h3><span>{{post.date | date:"%Y/%m/%d"}}</span>{{post.title}}</h3>
     </div>
   </article>
   </a>
