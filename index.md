@@ -77,8 +77,8 @@ layout: default
 </section>
 <section id="Blog">
   <h2 class="top-h2">BLOG</h2>
-  {% for post in site.categories.Blog %}
-  <a href="{{ site.baseurl }}{{ post.url }}">
+  {% for post in site.data.blog %}
+  <a href="{{ post.url }}">
   <article class="post">
     <div class="post-text">
       <h3><span>{{post.date | date:"%Y/%m/%d"}}</span>{{post.title}}</h3>
