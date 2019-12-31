@@ -77,15 +77,16 @@ layout: default
 </section>
 <section id="Blog">
   <h2 class="top-h2">BLOG</h2>
-  {% for post in site.data.blog %}
+  {% for post in site.data.blog limit:10 %}
   <a href="{{ post.url }}">
-  <article class="post">
+  <article class="posts">
     <div class="post-text">
       <h3><span>{{post.date | date:"%Y/%m/%d"}}</span>{{post.title}}</h3>
     </div>
   </article>
   </a>
   {% endfor %}
+  <a href="{{site.url}}/blog" class="button">過去の記事を見る</a>
 </section>
 <section id="Articles">
   <h2 class="top-h2">ARTICLE</h2>

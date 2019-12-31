@@ -191,7 +191,7 @@ section{
   margin: 0;
   font-size: 1em;
 }
-.post{
+.posts{
   border-radius: 8px;
   border: solid 4px #FFF;
   display: table;
@@ -200,10 +200,6 @@ section{
   width: calc(100% - 26px);
   text-align: left;
   transition: .3s;
-}
-.post:hover{
-  transition:.3s;
-  color: $maincolor;
 }
 .post-text{
   display: table-cell;
@@ -219,14 +215,23 @@ section{
   border-radius: 4px;
   margin-right: 12px;
 }
-#Blog a{
-  text-decoration: none;
-  color: $main-textcolor;
+
+.gray{
+  background-color: rgba($light-gray, 0.3);
 }
 
-/*ここからブログ新レイアウト
+#Blog {
+  a{
+    text-decoration: none;
+    color: $main-textcolor;
+  }
+  a:hover{
+    color: $maincolor;
+  }
+}
+
 .post-text p{
-  margin: 0;
+  margin: 6px 0;
   color:$maincolor;
 }
 .post-text h3{
@@ -234,25 +239,31 @@ section{
   margin: 0;
 }
 .post{
-  border-radius: 8px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 5px 16px rgba($main-textcolor, 0.1);
+  color: $main-textcolor;
   display: table;
   float: left;
   margin-bottom: 4px;
   padding: 16px;
-  width: 50%;
+  margin: 6px;
+  width: calc(50% - 12px);
   text-align: left;
   transition: .3s;
   box-sizing: border-box;
 }
 .post:hover{
   transition:.3s;
+  box-shadow: 0px 6px 16px rgba($main-textcolor, 0.2);
+  transform: translateY(-12px);
 }
 .post-text{
   vertical-align: middle;
   width: 80%;
   float: none;
 }
-.blog-thumnail{
+.blog-thumbnail{
   width: 100%;
   object-fit: cover;
   display: table-cell;
@@ -261,14 +272,17 @@ section{
   margin-right: 12px;
 }
 
-#Blog {
+.Blog {
   display: flex;
   flex-wrap: wrap;
   a{
     text-decoration: none;
     color: $main-textcolor;
   }
-}*/
+  a:hover{
+    color: $maincolor;
+  }
+}
 
 footer{
   background-color: $main-textcolor;
