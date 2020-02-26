@@ -14,8 +14,8 @@ layout: default
       {% include me.html %}
     </div>
     <div>
-      <h3>Yuki Mihashi  |  三橋 優希</h3>
-      <p>Unityでの制作と、イラスト描きと、Webサイト制作をやっています。<br>好きなものは色彩と、ぱきっとした線です。</p>
+      <h3>{{site.title}}</h3>
+      <p>{{site.description}}</p>
     </div>
   </section>
   <section>
