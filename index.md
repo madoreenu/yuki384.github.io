@@ -54,14 +54,14 @@ layout: default
   {% endfor %}
   </div>
 </section>
-<section id="achievement">
+<!--<section id="achievement">
   <h2 class="top-h2">ACHIEVEMENT</h2>
   <ul class="achi">
   {% for achi in site.data.achievement %}
   <li>{{ achi.date }} <span class="achi-title">{{achi.title}}</span> <a href="{{ achi.url }}" target="_blank" class="achievement" rel="noopener">{{ achi.event }}</a></li>
   {% endfor %}
   </ul>
-</section>
+</section>-->
 
 <section id="Presentation">
   <h2 class="top-h2">PRESENTATION SLIDE</h2>
