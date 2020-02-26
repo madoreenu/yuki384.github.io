@@ -20,6 +20,13 @@ layout: default
     <i class="fas fa-user fa-fw"></i>Unityエンジニア / CoderDojoメンター / 未踏ジュニア 2018年度 スーパークリエータ /
   </div>
   </section>
+  <section>
+    <h2 class="top-h2">SKILLS</h2>
+    <h3>ツール</h3>
+    <p>Adobe Illustrator, Photoshop, XD, figma, Unity</p>
+    <h3>開発</h3>
+    <p>Git, HTML, CSS, Scss, JavaScript, C#, Scratch</p>
+  </section>
 <!--<section id="skill">
   {% for work in site.data.skill %}
   <div class="work">
