@@ -42,14 +42,14 @@ layout: default
     <img src="{{site.url}}/img/{{post.categories}}/{{ post.thumbnail }}" alt="{{post.title}}" class="thumbnail" loading="lazy">
     {%else%}
     {%endif%}
-    <div class="prj-dsc">
+    <!--<div class="prj-dsc">
       <h3>{{post.title}}</h3>
       <div class="flex">
       {% for tag in post.tags %}
       <p class="tag">{{tag}}</p>
       {% endfor %}
       </div>
-    </div>
+    </div>-->
   </a>
   {% endfor %}
   </div>
