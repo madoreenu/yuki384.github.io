@@ -10,15 +10,13 @@ layout: default
     </div>
   </div>
   <section id="aboutme">
-  {% include me.html %}
-  <div class="aboutme-text">
-    <h3>三橋 優希 (みはし ゆうき)</h3>
-    <i class="fas fa-map-marker-alt fa-fw"></i> 東京<br>
-    <i class="fas fa-school fa-fw"></i> N高等学校 4期生<br>
-    <i class="fas fa-tools fa-fw"></i> Unity、イラスト、UIデザイン、Webサイト制作<br>
-    <i class="fas fa-envelope fa-fw"></i> {{site.email}}<br>
-    <i class="fas fa-user fa-fw"></i>Unityエンジニア / CoderDojoメンター / 未踏ジュニア 2018年度 スーパークリエータ /
-  </div>
+    <div>
+      {% include me.html %}
+    </div>
+    <div>
+      <h3>Yuki Mihashi  |  三橋 優希</h3>
+      <p>Unityでの制作と、イラスト描きと、Webサイト制作をやっています。<br>好きなものは色彩と、ぱきっとした線です。</p>
+    </div>
   </section>
   <section>
     <h2 class="top-h2">SKILLS</h2>

@@ -614,22 +614,18 @@ text-decoration: none;
 .me{
   width: 120px;
   display: block;
-  margin: 24px;
-  float: left;
+    float: none;
+    margin: auto;
+  //margin: 24px;
+  //float: left;
 }
-.aboutme-text{
-  line-height: 1.8em;
-  i{
-    color: $light-gray;
-  }
+#aboutme{
+  text-align: center;
 }
 @media screen and (max-width:800px) {
   .me{
     float: none;
     margin: auto;
-  }
-  .aboutme-text h3{
-    text-align: center;
   }
 }
 
