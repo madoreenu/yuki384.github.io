@@ -24,6 +24,8 @@ layout: default
     <p>Adobe Illustrator, Photoshop, XD, figma, Unity</p>
     <h3>開発</h3>
     <p>Git, HTML, CSS, Scss, JavaScript, C#, Scratch</p>
+    <h3>資格/検定</h3>
+    <p>商工会議所認定 2分野 1級カラーコーディネーター「商品色彩」</p>
   </section>
 <!--<section id="skill">
   {% for work in site.data.skill %}
