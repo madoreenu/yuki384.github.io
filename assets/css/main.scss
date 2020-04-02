@@ -724,7 +724,7 @@ text-decoration: none;
     content: '';
     position: absolute;
     top: 0;
-    left: calc(2.5vw + 16px + 12px - 2px);
+    left: calc(2.5vw + 16px + 1vw - 2px);
     height: 100%;
     width: 4px;
     background-color: $light-gray;
@@ -741,7 +741,7 @@ text-decoration: none;
   background-color: $maincolor;
   border-radius: 4px 0 0 4px;
   width: 5vw;
-  padding: 12px;
+  padding: 1vw;
   .emoji{
     width: 5vw;
     text-shadow: 0 0 6px #fff;
