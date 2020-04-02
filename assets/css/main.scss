@@ -716,10 +716,23 @@ text-decoration: none;
   }
 }
 // history
-.history-element{
-  display: flex;
+.history{
+  position: relative;
+  padding: 0 16px;
+  margin: 24px auto;
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(2.5vw + 16px + 12px - 2px);
+    height: 100%;
+    width: 4px;
+    background-color: $light-gray;
+    z-index: -1;
+  }
 }
 .history-element{
+  display: flex;
   box-shadow:0px 2px 8px 3px rgba($light-gray, 0.4);
   border-radius: 4px;
   margin: 12px 0;
