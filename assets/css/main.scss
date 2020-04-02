@@ -715,3 +715,31 @@ text-decoration: none;
     transition: .3s;
   }
 }
+// history
+.history-element{
+  display: flex;
+}
+.history-element{
+  box-shadow:0px 2px 8px 3px rgba($light-gray, 0.4);
+  border-radius: 4px;
+  margin: 12px 0;
+}
+.history-thumbnail{
+  background-color: $maincolor;
+  border-radius: 4px 0 0 4px;
+  width: 5vw;
+  padding: 12px;
+  .emoji{
+    width: 5vw;
+    text-shadow: 0 0 6px #fff;
+  }
+}
+.history-content{
+  margin: 24px;
+  h3, .history-dsc{
+    margin: 12px 0;
+  }
+}
+.history-date, .history-place{
+  margin: 0 0 18px;
+}
