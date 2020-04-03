@@ -18,11 +18,11 @@ layout: default
 <section>
   <h2 class="top-h2">Skills</h2>
   <h3>ツール</h3>
-  <p>Adobe Illustrator, Photoshop, XD, figma, Unity</p>
+  {% include skill-list.html category="tool"%}
   <h3>開発</h3>
-  <p>Git, HTML, CSS, Scss, JavaScript, C#, Scratch</p>
+  {% include skill-list.html category="code"%}
   <h3>資格/検定</h3>
-  <p>商工会議所認定 2分野 1級カラーコーディネーター「商品色彩」</p>
+  {% include skill-list.html category="certification"%}
 </section>
 <section>
   <h2 class="top-h2">Experiences</h2>

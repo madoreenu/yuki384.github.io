@@ -1,23 +1,43 @@
-- name: 2Dゲーム開発
-  description: Unity(C#)やScratchを用いたゲームの開発
-  img: game.svg
+- name: HTML
+  description: このWebサイトを0から作れる程度の技術力。実務経験あり。
+  category: code
 
-- name: Webサービス開発
-  description: Ruby on Railsを用いたWebサービス開発
-  img: webservice.svg
+- name: CSS, Scss
+  description: このWebサイトを0から作れる程度の技術力。実務経験あり。
+  category: code
 
-- name: Webサイト制作
-  description: HTML/CSSを用いたWebサイト制作
-  img: website.svg
+- name: JavaScript
+  description: Google Apps Scriptを用いたツール効率化, Chrome拡張機能開発等。
+  category: code
 
-- name: プログラミングの可能性を広める活動
-  description: Scratchの書籍執筆やプログラミングクラブ運営等の活動
-  img: activity.svg
+- name: C# (Unity)
+  description: 教室での講師経験、システム開発の実務経験あり。
+  category: code
 
-- name: 拡張機能等開発
-  description: JavaScriptを用いたChrome拡張機能開発、Google Apps Scriptでツール開発等
-  img: webtool.svg
+- name: Git
+  description: 開発に困らない程度。アルバイト先で使用していた。詳しくは<a href="https://github.com/yuki384/">GitHub</a>を参照。
+  category: code
 
-- name: イラスト制作
-  description: アナログ・デジタルでイラスト制作
-  img: art.svg
+- name: Scratch
+  description: 一番長く慣れ親しんでいる。数々の受賞のほか、Scratchに関する技術書の制作経験がある。
+  category: code
+
+- name: Adobe Illustrator
+  description: イベントのメインビジュアルからゲームグラフィック、書籍表紙など、イラスト制作が主。
+  category: "tool"
+
+- name: Adobe Photoshop
+  description: 画像加工、イラスト制作等。基本的な操作に困らないレベル。
+  category: "tool"
+
+- name: Adobe XD, Figma
+  description: プロトタイプ制作、UIデザイン、Webデザインラフ案制作に使用している。
+  category: "tool"
+
+- name: Google Apps Script
+  description: Google スプレッドシートの拡張等、ツール効率化をしている。
+  category: "tool"
+
+- name: 1級カラーコーディネーター
+  description: 正式には、商工会議所認定 2分野 1級カラーコーディネーター「商品色彩」。経営における色彩、素材と商品デザイン等について学んだ。
+  category: certification

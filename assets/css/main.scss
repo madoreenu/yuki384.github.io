@@ -800,3 +800,22 @@ text-decoration: none;
   font-size: 14px;
   color: $gray;
 }
+
+// skill-list
+.skill-list{
+  padding-left: 1em; 
+  span{
+    display: inline-block;
+  }
+  li{
+    display: flex;
+  }
+}
+.skill-name{
+  font-weight: 500;
+  min-width: 160px;
+}
+.skill-dsc{
+  color: $gray;
+  font-size: 14px;
+}

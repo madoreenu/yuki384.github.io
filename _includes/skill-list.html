@@ -1,0 +1,9 @@
+{% assign skills = site.data.skill | where_exp: "skill", "skill.category == include.category" %}
+<ul class="skill-list">
+  {% for skill in skills %}
+  <li>
+    <span class="skill-name">{{ skill.name }}</span>
+    <span class="skill-dsc">{{ skill.description }}</span>
+  </li>
+  {% endfor %}
+</ul>

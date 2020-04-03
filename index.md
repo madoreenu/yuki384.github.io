@@ -19,14 +19,6 @@ layout: default
       <a href="/about" class="button" style="width: 240px;">私について</a>
     </div>
   </section>
-<!--<section id="skill">
-  {% for work in site.data.skill %}
-  <div class="work">
-    <img src="{{site.url}}/img/icons/{{work.img}}" alt="">
-    <h3>{{work.name}}</h3>
-  </div>
-  {% endfor %}
-</section>-->
 <section id="Works">
   <h2 class="top-h2">Works</h2>
   <div class="flex">
