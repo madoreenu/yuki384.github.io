@@ -19,7 +19,7 @@ layout: default
     </div>
   </section>
   <section>
-    <h2 class="top-h2">SKILLS</h2>
+    <h2 class="top-h2">Skills</h2>
     <h3>ツール</h3>
     <p>Adobe Illustrator, Photoshop, XD, figma, Unity</p>
     <h3>開発</h3>
@@ -36,7 +36,7 @@ layout: default
   {% endfor %}
 </section>-->
 <section id="Works">
-  <h2 class="top-h2">WORK</h2>
+  <h2 class="top-h2">Works</h2>
   <div class="flex">
   {% for post in site.categories.Works %}
   <a href="{{ site.baseurl }}{{ post.url }}" class="project">
@@ -66,7 +66,7 @@ layout: default
 </section>-->
 
 <section id="Presentation">
-  <h2 class="top-h2">PRESENTATION SLIDE</h2>
+  <h2 class="top-h2">Presentation Slide</h2>
   <div class="flex">
     {% for prs in site.data.presentation %}
     <a href="{{ prs.url }}" target="_blank" class="prs" rel="noopener">
@@ -83,7 +83,7 @@ layout: default
   <a href="https://speakerdeck.com/yuki384" class="button">もっと見る</a>
 </section>
 <section id="Blog">
-  <h2 class="top-h2">BLOG</h2>
+  <h2 class="top-h2">Blog</h2>
   {% for post in site.data.blog limit:10 %}
   <a href="{{ post.url }}">
   <article class="posts">
@@ -96,7 +96,7 @@ layout: default
   <a href="{{site.url}}/blog" class="button">過去の記事を見る</a>
 </section>
 <section id="Articles">
-  <h2 class="top-h2">ARTICLE</h2>
+  <h2 class="top-h2">Articles</h2>
   <ul>
     {% for article in site.data.article %}
       <li><a href="{{article.url}}" target="_blank" rel="noopener">{{article.title}}</a></li>
@@ -104,7 +104,7 @@ layout: default
   </ul>
 </section>
 <section>
-  <h2 class="top-h2">GITHUB ACTIVITIES</h2>
+  <h2 class="top-h2">GitHub Activities</h2>
   <a href="https://github.com/yuki384"><i class="fab fa-github"></i> yuki384<img src="https://grass-graph.moshimo.works/images/yuki384.png" alt="" class="shiba-img"></a>
 </section>
 </div>
