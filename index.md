@@ -9,6 +9,16 @@ layout: default
       {% include sns.html %}
     </div>
   </div>
+  <section id="aboutme">
+    <div>
+      {% include me.html %}
+    </div>
+    <div>
+      <h3>{{site.title}}</h3>
+      <p>{{site.description}}</p>
+      <a href="/about" class="button" style="width: 240px;">私について</a>
+    </div>
+  </section>
 <!--<section id="skill">
   {% for work in site.data.skill %}
   <div class="work">
