@@ -9,3 +9,7 @@ layout: default
     {% endfor %}
   </div>
 </section>
+
+<script>
+twemoji.parse(document.body);
+</script>
