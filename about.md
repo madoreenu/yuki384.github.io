@@ -25,7 +25,7 @@ layout: default
   <p>商工会議所認定 2分野 1級カラーコーディネーター「商品色彩」</p>
 </section>
 <section>
-  <h2 class="top-h2">Experience</h2>
+  <h2 class="top-h2">Experiences</h2>
   <div class="history">
     {% for elem in site.data.history %}
       {% include historyElm.html %}
