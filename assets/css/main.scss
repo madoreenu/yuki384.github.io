@@ -816,17 +816,27 @@ text-decoration: none;
 // skill-list
 .skill-list{
   padding-left: 1em;
+  @media screen and (max-width:800px) {
+    padding-left: 0.5em;
+  }
   span{
     display: inline-block;
   }
   li{
     display: flex;
     margin-bottom: 4px;
+    @media screen and (max-width:800px) {
+      display: block;
+      margin-bottom: 12px;
+    }
   }
 }
 .skill-name{
   font-weight: 500;
   min-width: 160px;
+  @media screen and (max-width:800px) {
+    width: 100%;
+  }
 }
 .skill-dsc{
   color: $gray;
