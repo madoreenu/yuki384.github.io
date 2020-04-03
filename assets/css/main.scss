@@ -8,6 +8,7 @@ $maincolor: #31bccc;
 $purple: #8D6AFF;
 $pink: #ff4d8c;
 $light-gray: #bed4e6;
+$gray: #757a90;
 
 body{
   margin: 0;
@@ -782,4 +783,8 @@ text-decoration: none;
 }
 .history-date, .history-place{
   margin: 0 0 18px;
+}
+.history-dsc{
+  font-size: 14px;
+  color: $gray;
 }
