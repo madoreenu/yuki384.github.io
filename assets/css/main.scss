@@ -729,6 +729,9 @@ text-decoration: none;
     width: 4px;
     background-color: $light-gray;
     z-index: -1;
+    @media screen and (max-width:800px) {
+      display: none;
+    }
   }
 }
 .history-element{
@@ -746,6 +749,9 @@ text-decoration: none;
   .emoji{
     width: 22px;
     text-shadow: 0 0 6px #fff;
+  }
+  @media screen and (max-width:800px) {
+    display: none;
   }
 }
 .history-content{
@@ -783,6 +789,11 @@ text-decoration: none;
     top: 0;
     left: 0;
   }
+  @media screen and (max-width:800px) {
+    &::before, &::after{
+      display: none;
+    }
+  }
 }
 .history-date{
   margin: 0 0 8px;
@@ -790,6 +801,7 @@ text-decoration: none;
   font-weight: 600;
 }
 .history-place{
+  display: inline-block;
   margin: 0 0 18px 8px;
   color: $gray;
   &::before{
