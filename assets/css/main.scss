@@ -756,7 +756,11 @@ text-decoration: none;
   width: 100%;
   position: relative;
   h3, .history-dsc{
-    margin: 12px 0;
+    margin: 8px 0;
+  }
+  h3{
+    font-size: 16px;
+    display: inline-block;
   }
   &::before{
     content: '';
@@ -781,8 +785,17 @@ text-decoration: none;
     left: 0;
   }
 }
-.history-date, .history-place{
-  margin: 0 0 18px;
+.history-date{
+  margin: 0 0 8px;
+  color: $maincolor;
+  font-weight: 600;
+}
+.history-place{
+  margin: 0 0 18px 8px;
+  color: $gray;
+  &::before{
+    content: 'at ';
+  }
 }
 .history-dsc{
   font-size: 14px;
