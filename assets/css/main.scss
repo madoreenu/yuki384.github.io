@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Raleway:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/nikukyu.css');
 $main-textcolor: #393c5d;
 $maincolor: #31bccc;
@@ -12,7 +12,7 @@ $gray: #757a90;
 
 body{
   margin: 0;
-  font-family: 'Raleway', 'Noto Sans JP', sans-serif;
+  font-family: 'Open Sans', 'Noto Sans JP', sans-serif;
   color: $main-textcolor;
 }
 a{
@@ -47,7 +47,7 @@ section{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   color: $pink;
-  font-family: 'Raleway';
+  font-family: 'Open Sans';
   text-shadow:3px 3px 0 #FFF, -3px -3px 0 #FFF,
               -3px 3px 0 #FFF, 3px -3px 0 #FFF,
               0px 3px 0 #FFF,  0-3px 0 #FFF,
@@ -163,8 +163,7 @@ section{
 }
 .top-h2{
   text-align: center;
-  font-family: 'Raleway';
-  letter-spacing: .3em;
+  font-family: 'Open Sans';
   color: $main-textcolor;
   &::after{
     content: '';
@@ -343,7 +342,7 @@ header{
   padding: 0;
   li{
     display: inline;
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
     font-weight: bold;
     padding: 12px;
     letter-spacing: .2em;
