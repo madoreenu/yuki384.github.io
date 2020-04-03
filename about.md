@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
+<div class="post-head">
+{% include header.html %}
+<h2></h2>
+<h1>About Me</h1>
+</div>
 <section id="aboutme">
   <div>
     {% include me.html %}
