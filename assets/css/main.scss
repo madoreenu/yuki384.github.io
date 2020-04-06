@@ -766,6 +766,7 @@ text-decoration: none;
   h3{
     font-size: 16px;
     display: inline-block;
+    margin-right: 8px;
   }
   &::before{
     content: '';
@@ -800,13 +801,12 @@ text-decoration: none;
   color: $maincolor;
   font-weight: 600;
 }
+.history-title{
+  display: inline-block;
+  color: $gray;
+}
 .history-place{
   display: inline-block;
-  margin: 0 0 18px 8px;
-  color: $gray;
-  &::before{
-    content: 'at ';
-  }
 }
 .history-dsc{
   font-size: 14px;
