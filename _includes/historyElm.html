@@ -4,7 +4,7 @@
   </div>
   <div class="history-content">
     <div class="history-date">{{ elem.date }}</div>
-    <h3>{{ elem.title }}</h3>{% if elem.place %}<span class="history-place">{{ elem.place }}</span>{% endif %}
+    {% if elem.place %}<h3 class="history-place">{{ elem.place }}</h3>{% endif %}<span class="history-title">{{ elem.title }}</span>
     <p class="history-dsc">
       {{ elem.content }}
     </p>
