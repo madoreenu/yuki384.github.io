@@ -807,6 +807,10 @@ text-decoration: none;
 }
 .history-place{
   display: inline-block;
+  color: $main-textcolor;
+  &:hover{
+    text-decoration: underline;
+  }
 }
 .history-dsc{
   font-size: 14px;
