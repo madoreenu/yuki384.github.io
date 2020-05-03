@@ -12,6 +12,7 @@ layout: default
   </div>
   <div>
     <h3>{{site.title}}</h3>
+    {% include sns.html %}
     <p>{{site.description}}</p>
   </div>
 </section>
