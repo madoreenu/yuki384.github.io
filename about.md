@@ -13,7 +13,7 @@ layout: default
   <div>
     <h3>{{site.title}}</h3>
     {% include sns.html %}
-    <p>{{site.description}}</p>
+    <p class="about-me">{{site.description}}</p>
   </div>
 </section>
 <section>
