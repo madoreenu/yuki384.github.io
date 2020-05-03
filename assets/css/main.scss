@@ -127,9 +127,9 @@ section{
   display: block;
   margin: 18px 12px;
   text-decoration: none;
-  width: calc(50% - (12px * 2));
+  width: calc(33% - (12px * 2));
   transition: .3s;
-  height: 200px;
+  height: 160px;
   &> img{
     width: 100%;
     height: 100%;
@@ -155,7 +155,14 @@ section{
 }
 @media screen and (max-width:800px) {
   .project{
-    height: auto;
+    height: 200px;
+    width: calc(50% - (12px * 2));
+  }
+}
+@media screen and (max-width:550px) {
+  .project{
+    height: 250px;
+    width: calc(100% - (12px * 2));
   }
 }
 
@@ -417,12 +424,6 @@ header{
   }
   .page-not-found-img{
     float: none;
-  }
-  .project{
-    width: calc(100% - (6px * 2));
-    img{
-      width: 100%;
-    }
   }
 
 }
