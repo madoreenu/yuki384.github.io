@@ -64,7 +64,20 @@ section{
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
 }
-
+.top-link {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2em;
+  a {
+    color: $main-textcolor;
+    display: block;
+    transition: all .3s;
+    &:hover {
+      color: $maincolor;
+    }
+  }
+}
 .sns a{
   color: inherit;
   font-size: 24px;

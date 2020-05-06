@@ -6,7 +6,11 @@ layout: default
     <div class="cover-content">
       <img src="{{site.url}}/img/logo.svg" alt="" class="top-img">
       <!--<h1><a href="" style="color:#ff4d8c">{{site.title}}</a><a href="/profile"><span class="arrow">Click!<img src="/img/arrow.svg" width="60px"></span></a></h1>-->
-      {% include sns.html %}
+      <div class="top-link">
+        <a href="/about">About Me</a>
+        <a href="#Works">Works</a>
+        <a href="/blog">Blog</a>
+      </div>
     </div>
   </div>
   <section id="aboutme">
